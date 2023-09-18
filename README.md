@@ -1,2 +1,2 @@
-# Molecular-Feature-Selection-Tool
-Ensemble machine learning approach for feature selection
+# Molecular-Feature-Selection-Tool (MFeaST)
+Ensemble machine learning approach for feature selection. 
