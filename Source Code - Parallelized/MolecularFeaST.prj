@@ -1,0 +1,236 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="1283022754" file="/Volumes/USB20FD/Tashifa 22_23/MASTERS/Protocols/MFeaST/Roy Parallelize MFeaST/Source Code/MolecularFeaST.prj" location="/Volumes/USB20FD/Tashifa 22_23/MASTERS/Protocols/MFeaST/Roy Parallelize MFeaST/Source Code" name="MolecularFeaST" preferred-package-location="/Volumes/USB20FD/Tashifa 22_23/MASTERS/Protocols/MFeaST/Roy Parallelize MFeaST/Source Code/D:\Tashifa 22_23\MASTERS\Protocols\MFeaST\11July2023\Mac\for_redistribution" preferred-package-type="package.type.app" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>MolecularFeaST</param.appname>
+    <param.icon>${PROJECT_ROOT}/MolecularFeaST_resources/icon.icns</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}/MolecularFeaST_resources/icon_48.png</file>
+      <file>${PROJECT_ROOT}/MolecularFeaST_resources/icon_32.png</file>
+      <file>${PROJECT_ROOT}/MolecularFeaST_resources/icon_24.png</file>
+      <file>${PROJECT_ROOT}/MolecularFeaST_resources/icon_16.png</file>
+    </param.icons>
+    <param.version>0.2</param.version>
+    <param.authnamewatermark>Kathrin Tyryshkin</param.authnamewatermark>
+    <param.email>kt40@queensu.ca</param.email>
+    <param.company>Queen's University, Kingston, ON</param.company>
+    <param.summary>Ensemble feature selection tool.</param.summary>
+    <param.description>Make sure you are running as an administrator.</param.description>
+    <param.screenshot>${PROJECT_ROOT}/logo.png</param.screenshot>
+    <param.guid />
+    <param.installpath.string>/MolecularFeaST/</param.installpath.string>
+    <param.installpath.combo>option.installpath.systemwideapp</param.installpath.combo>
+    <param.logo>${PROJECT_ROOT}/logo.png</param.logo>
+    <param.install.notes />
+    <param.target.install.notes>In the following directions, replace MR/v912 by the directory on the target machine where MATLAB is installed, or MR by the directory where the MATLAB Runtime is installed.
+
+If the environment variable DYLD_LIBRARY_PATH is undefined, set it to the following string:
+
+MR/v912/runtime/maci64:MR/v912/sys/os/maci64:MR/v912/bin/maci64
+
+If it is defined, set it to the following:
+
+${DYLD_LIBRARY_PATH}:MR/v912/runtime/maci64:MR/v912/sys/os/maci64:MR/v912/bin/maci64</param.target.install.notes>
+    <param.intermediate>/Volumes/USB20FD/Tashifa 22_23/MASTERS/Protocols/MFeaST/11July2023/Mac/for_testing</param.intermediate>
+    <param.files.only>/Volumes/USB20FD/Tashifa 22_23/MASTERS/Protocols/MFeaST/11July2023/Mac/for_redistribution_files_only</param.files.only>
+    <param.output>/Volumes/USB20FD/Tashifa 22_23/MASTERS/Protocols/MFeaST/11July2023/Mac/for_redistribution</param.output>
+    <param.logdir>/Volumes/USB20FD/Tashifa 22_23/MASTERS/Protocols/MFeaST/11July2023/Mac</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MolecularFeaST_InstallerVersion</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>false</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <param.native.matlab>false</param.native.matlab>
+    <param.checkbox>false</param.checkbox>
+    <param.example />
+    <param.help.text>Syntax 
+	  -? 
+	 
+ Input Arguments 
+	 -?  print help on how to use the application 
+	 input arguments</param.help.text>
+    <unset>
+      <param.authnamewatermark />
+      <param.email />
+      <param.guid />
+      <param.installpath.combo />
+      <param.install.notes />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.target.type />
+      <param.support.packages />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+      <param.native.matlab />
+      <param.checkbox />
+      <param.example />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}/molecularFeaST.mlapp</file>
+    </fileset.main>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}/AddCurrentFeatureButtonIcon.png</file>
+      <file>${PROJECT_ROOT}/AddFeatureToSelected.png</file>
+      <file>${PROJECT_ROOT}/AddPlottedFeaturesToClusterButtonIcon.png</file>
+      <file>${PROJECT_ROOT}/ComputeCohenD.m</file>
+      <file>${PROJECT_ROOT}/CopyCurrentFeatureButtonIcon.png</file>
+      <file>${PROJECT_ROOT}/Ensembl_class_fun.m</file>
+      <file>${PROJECT_ROOT}/FeatureRankEnsemble_v3.asv</file>
+      <file>${PROJECT_ROOT}/FeatureRankEnsemble_v3.m</file>
+      <file>${PROJECT_ROOT}/KNNSpearman_class_fun.m</file>
+      <file>${PROJECT_ROOT}/KNN_class_fun.m</file>
+      <file>${PROJECT_ROOT}/KNNfine_class_fun.m</file>
+      <file>${PROJECT_ROOT}/LDA_class_fun.m</file>
+      <file>${PROJECT_ROOT}/Left.png</file>
+      <file>${PROJECT_ROOT}/LogTransformation.png</file>
+      <file>${PROJECT_ROOT}/MolecularFeaST_resources</file>
+      <file>${PROJECT_ROOT}/NN_class_fun.m</file>
+      <file>${PROJECT_ROOT}/PlotSettings.mlapp</file>
+      <file>${PROJECT_ROOT}/PlotStyleSettings.png</file>
+      <file>${PROJECT_ROOT}/Question.png</file>
+      <file>${PROJECT_ROOT}/RemoveAllFeatureButtonIcon.png</file>
+      <file>${PROJECT_ROOT}/RemoveCurrentFeatureButtonIcon.png</file>
+      <file>${PROJECT_ROOT}/RemoveFeatureFromSelected.png</file>
+      <file>${PROJECT_ROOT}/Right.png</file>
+      <file>${PROJECT_ROOT}/SVM_class_fun.m</file>
+      <file>${PROJECT_ROOT}/SVMlin_class_fun.m</file>
+      <file>${PROJECT_ROOT}/SampleDataExample.jpg</file>
+      <file>${PROJECT_ROOT}/SelectNextTwo.png</file>
+      <file>${PROJECT_ROOT}/SelectPreviousTwo.png</file>
+      <file>${PROJECT_ROOT}/Tree_class_fun.m</file>
+      <file>${PROJECT_ROOT}/bg.png</file>
+      <file>${PROJECT_ROOT}/clusterExpressionData.m</file>
+      <file>${PROJECT_ROOT}/computeEffectSize.m</file>
+      <file>${PROJECT_ROOT}/computeFoldChange.m</file>
+      <file>${PROJECT_ROOT}/computeMI_hist.m</file>
+      <file>${PROJECT_ROOT}/excelRead.m</file>
+      <file>${PROJECT_ROOT}/exportData.m</file>
+      <file>${PROJECT_ROOT}/exportDataTo.m</file>
+      <file>${PROJECT_ROOT}/file_manifest.txt</file>
+      <file>${PROJECT_ROOT}/greedyFeatureSelEnsamble.m</file>
+      <file>${PROJECT_ROOT}/iterSequantialfs_v2.m</file>
+      <file>${PROJECT_ROOT}/logo.png</file>
+      <file>${PROJECT_ROOT}/miRNAdata.csv</file>
+      <file>${PROJECT_ROOT}/miRNAdata.xlsx</file>
+      <file>${PROJECT_ROOT}/minmax_standardize.m</file>
+      <file>${PROJECT_ROOT}/molecularFeaST.mlapp</file>
+      <file>${PROJECT_ROOT}/mutualInfo.m</file>
+      <file>${PROJECT_ROOT}/myColourMap_RedBlue.m</file>
+      <file>${PROJECT_ROOT}/parallelRanking.m</file>
+      <file>${PROJECT_ROOT}/pfitcensemble.m</file>
+      <file>${PROJECT_ROOT}/replaceZeros.m</file>
+      <file>${PROJECT_ROOT}/replay_pid1308.log</file>
+      <file>${PROJECT_ROOT}/replay_pid13200.log</file>
+      <file>${PROJECT_ROOT}/resources</file>
+      <file>${PROJECT_ROOT}/runFeatureSelect_v3.m</file>
+      <file>${PROJECT_ROOT}/run_featureRankEnsemble.asv</file>
+      <file>${PROJECT_ROOT}/run_featureRankEnsemble.m</file>
+      <file>${PROJECT_ROOT}/tsne.png</file>
+    </fileset.resources>
+    <fileset.package>
+      <file>${PROJECT_ROOT}/AddCurrentFeatureButtonIcon.png</file>
+      <file>${PROJECT_ROOT}/AddFeatureToSelected.png</file>
+      <file>${PROJECT_ROOT}/AddPlottedFeaturesToClusterButtonIcon.png</file>
+      <file>${PROJECT_ROOT}/ComputeCohenD.m</file>
+      <file>${PROJECT_ROOT}/CopyCurrentFeatureButtonIcon.png</file>
+      <file>${PROJECT_ROOT}/Ensembl_class_fun.m</file>
+      <file>${PROJECT_ROOT}/FeatureRankEnsemble_v3.m</file>
+      <file>${PROJECT_ROOT}/KNNSpearman_class_fun.m</file>
+      <file>${PROJECT_ROOT}/KNN_class_fun.m</file>
+      <file>${PROJECT_ROOT}/KNNfine_class_fun.m</file>
+      <file>${PROJECT_ROOT}/LDA_class_fun.m</file>
+      <file>${PROJECT_ROOT}/Left.png</file>
+      <file>${PROJECT_ROOT}/LogTransformation.png</file>
+      <file>${PROJECT_ROOT}/MolecularFeaST_resources</file>
+      <file>${PROJECT_ROOT}/NN_class_fun.m</file>
+      <file>${PROJECT_ROOT}/PlotSettings.mlapp</file>
+      <file>${PROJECT_ROOT}/PlotStyleSettings.png</file>
+      <file>${PROJECT_ROOT}/Question.png</file>
+      <file>${PROJECT_ROOT}/RemoveAllFeatureButtonIcon.png</file>
+      <file>${PROJECT_ROOT}/RemoveCurrentFeatureButtonIcon.png</file>
+      <file>${PROJECT_ROOT}/RemoveFeatureFromSelected.png</file>
+      <file>${PROJECT_ROOT}/Right.png</file>
+      <file>${PROJECT_ROOT}/SVM_class_fun.m</file>
+      <file>${PROJECT_ROOT}/SVMlin_class_fun.m</file>
+      <file>${PROJECT_ROOT}/SampleDataExample.jpg</file>
+      <file>${PROJECT_ROOT}/SelectNextTwo.png</file>
+      <file>${PROJECT_ROOT}/SelectPreviousTwo.png</file>
+      <file>${PROJECT_ROOT}/Tree_class_fun.m</file>
+      <file>${PROJECT_ROOT}/bg.png</file>
+      <file>${PROJECT_ROOT}/clusterExpressionData.m</file>
+      <file>${PROJECT_ROOT}/computeEffectSize.m</file>
+      <file>${PROJECT_ROOT}/computeFoldChange.m</file>
+      <file>${PROJECT_ROOT}/computeMI_hist.m</file>
+      <file>${PROJECT_ROOT}/excelRead.m</file>
+      <file>${PROJECT_ROOT}/exportData.m</file>
+      <file>${PROJECT_ROOT}/exportDataTo.m</file>
+      <file>${PROJECT_ROOT}/file_manifest.txt</file>
+      <file>${PROJECT_ROOT}/greedyFeatureSelEnsamble.m</file>
+      <file>${PROJECT_ROOT}/iterSequantialfs_v2.m</file>
+      <file>${PROJECT_ROOT}/logo.png</file>
+      <file>${PROJECT_ROOT}/miRNAdata.csv</file>
+      <file>${PROJECT_ROOT}/miRNAdata.xlsx</file>
+      <file>${PROJECT_ROOT}/minmax_standardize.m</file>
+      <file>${PROJECT_ROOT}/molecularFeaST.mlapp</file>
+      <file>${PROJECT_ROOT}/mutualInfo.m</file>
+      <file>${PROJECT_ROOT}/myColourMap_RedBlue.m</file>
+      <file>${PROJECT_ROOT}/replaceZeros.m</file>
+      <file>${PROJECT_ROOT}/resources</file>
+      <file>${PROJECT_ROOT}/runFeatureSelect_v3.m</file>
+      <file>${PROJECT_ROOT}/run_featureRankEnsemble.m</file>
+      <file>${PROJECT_ROOT}/tsne.png</file>
+    </fileset.package>
+    <fileset.depfun />
+    <build-deliverables>
+      <file location="/Volumes/USB20FD/Tashifa 22_23/MASTERS/Protocols/MFeaST/11July2023/Mac/for_testing" name="run_MolecularFeaST.sh" optional="false">/Volumes/USB20FD/Tashifa 22_23/MASTERS/Protocols/MFeaST/11July2023/Mac/for_testing/run_MolecularFeaST.sh</file>
+      <file location="/Volumes/USB20FD/Tashifa 22_23/MASTERS/Protocols/MFeaST/11July2023/Mac/for_testing" name="readme.txt" optional="true">/Volumes/USB20FD/Tashifa 22_23/MASTERS/Protocols/MFeaST/11July2023/Mac/for_testing/readme.txt</file>
+      <file location="/Volumes/USB20FD/Tashifa 22_23/MASTERS/Protocols/MFeaST/11July2023/Mac/for_testing" name="splash.png" optional="false">/Volumes/USB20FD/Tashifa 22_23/MASTERS/Protocols/MFeaST/11July2023/Mac/for_testing/splash.png</file>
+      <file location="/Volumes/USB20FD/Tashifa 22_23/MASTERS/Protocols/MFeaST/11July2023/Mac/for_testing" name="MolecularFeaST.app" optional="false">/Volumes/USB20FD/Tashifa 22_23/MASTERS/Protocols/MFeaST/11July2023/Mac/for_testing/MolecularFeaST.app</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/Applications/MATLAB_R2022a.app</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>true</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>13.4.1</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>maci64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

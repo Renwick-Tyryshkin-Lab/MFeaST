@@ -1,0 +1,8 @@
+Required Functions:
+clusterExpressionData.m
+computeEffectSize
+computeFoldChange
+computeMI_hist 
+excelRead
+exportData
+Ensembl_class_fun
