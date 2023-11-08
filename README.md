@@ -5,9 +5,7 @@ Ensemble machine learning approach for feature selection.
 
 .exe files are for Windows installation. 
 
-MATLAB Runtime v9.12 (2022a) required for MATLAB user version. Otherwise, please use "Installer Version". 
-
-Download instructions and troubleshooting available at https://github.com/Renwick-Lab/RNA-ML-Sample-Hierarchical-Classification 
+MATLAB Runtime v9.12 (2022a) required for MATLAB user version. Please use "Installer Version". 
 
 See [renwicklab](https://www.renwicklab.com/molecular-feast/)https://www.renwicklab.com/molecular-feast/ for more information. 
 
