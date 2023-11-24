@@ -1,11 +1,11 @@
 # Molecular-Feature-Selection-Tool (MFeaST)
 Ensemble machine learning approach for feature selection. 
 
+If you choose to download _MFeaST_ from github, please select the file for your system: 
 .dmg files are for Mac installation. 
-
 .exe files are for Windows installation. 
 
-MATLAB Runtime v9.12 (2022a) required for MATLAB user version. Please use "Installer Version". 
+MATLAB Runtime v9.12 (2022a) required for MATLAB user version. Please use the "Installer Version". 
 
 See [renwicklab](https://www.renwicklab.com/molecular-feast/)https://www.renwicklab.com/molecular-feast/ for more information. 
 
@@ -15,7 +15,7 @@ If issues, please write in Issues or contact 17ti6@queensu.ca
 * [Download and install _MFeaST_](#setup)
 * [Errors during _MFeaST_ installation](#troubleshooting)
 
-## Download and install _MFeaST_ from: [https://www.renwicklab.com/molecular-feast/](https://www.renwicklab.com/molecular-feast/).<a name="setup"></a>
+## If you choose to download and install _MFeaST_ from: [https://www.renwicklab.com/molecular-feast/](https://www.renwicklab.com/molecular-feast/).<a name="setup"></a>
 1. Choose the one-step installation version. This ensures the MATLAB Runtime corresponding to the app version is also installed.    
 2. Select your operating system and then click the “Add to cart” button. Click “View cart”.  
 3. Click “Proceed to checkout”. Type in your contact information as requested and click “Submit”.  
