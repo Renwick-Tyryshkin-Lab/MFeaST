@@ -13,7 +13,7 @@ See [renwicklab](https://www.renwicklab.com/molecular-feast/)https://www.renwick
 For step by step instructions on installation and use, please see "Before You Begin" and "Stage 3" in [A user-driven machine learning approach for RNA-based sample discrimination and hierarchical classification
 ](https://star-protocols.cell.com/protocols/3074#summary) 
 
-If issues, please write in Issues or contact 17ti6@queensu.ca
+If issues, please write in Issues or contact either Tashifa Imtiaz (17ti6@queensu.ca) or Kathrin Tyryshkin (kt40@queensu.ca)
 
 ## Table of Contents
 * [Download and install _MFeaST_](#setup)
