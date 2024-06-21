@@ -3,7 +3,7 @@ Ensemble machine learning approach for feature selection.
 
 If you choose to download _MFeaST_ from github, please select the file for your system: 
 
-.dmg files are for Mac installation. 
+.dmg or .app files are for Mac installation. 
 
 .exe files are for Windows installation. 
 
