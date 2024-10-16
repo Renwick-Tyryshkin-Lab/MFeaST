@@ -18,6 +18,7 @@ If issues, please write in Issues or contact either Tashifa Imtiaz (17ti6@queens
 ## Table of Contents
 * [Download and install _MFeaST_](#setup)
 * [Errors during _MFeaST_ installation](#troubleshooting)
+* [Run _MFeaST_ algorithms without installing GUI](#script_pkg)
 
 ## If you choose to download and install _MFeaST_ from: [https://www.renwicklab.com/molecular-feast/](https://www.renwicklab.com/molecular-feast/).<a name="setup"></a>
 1. Choose the one-step installation version. This ensures the MATLAB Runtime corresponding to the app version is also installed.    
@@ -40,6 +41,9 @@ https://github.com/Renwick-Lab/RNA-ML-Sample-Hierarchical-Classification/assets/
 **Install _MFeaST_ for Mac**
 
 https://github.com/Renwick-Lab/RNA-ML-Sample-Hierarchical-Classification/assets/57264991/3d388621-401d-4754-b2c1-3e681119d59f
+
+## Run _MFeaST_ algorithms without GUI <a name="script_pkg"></a>
+- Download the runEnsembleFeatureSelection_Pkg.zip file and follow instructions in the run_feature_selection_script.m file. All required functions are included in the package.  
 
 ## Errors during *MFeaST* installation.<a name="troubleshooting"></a> 
 
