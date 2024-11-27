@@ -1,7 +1,7 @@
 # Molecular-Feature-Selection-Tool (MFeaST)
 Ensemble machine learning approach for feature selection. 
 
-If you choose to download _MFeaST_ from github, please select the file for your system: 
+**If you choose to download _MFeaST_ from github, please select the file for your system:** 
 
 .dmg or .app files are for Mac installation. Then follow [Mac installation instructions](#mac).
 
