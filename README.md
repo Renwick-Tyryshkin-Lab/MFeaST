@@ -3,11 +3,11 @@ Ensemble machine learning approach for feature selection.
 
 If you choose to download _MFeaST_ from github, please select the file for your system: 
 
-.dmg or .app files are for Mac installation. 
+.dmg or .app files are for Mac installation. Then follow [Mac installation instructions](#mac).
 
-.exe files are for Windows installation. 
+.exe files are for Windows installation. Then follow [Windows installation instructions](#windows).
 
-MATLAB Runtime 2023a required for MATLAB user version of latest release. Please use the "Installer Version" to install Runtime with MFeaST. 
+MATLAB Runtime 2023a required for MATLAB user version of latest release. Please use the "Installer Version" to install Runtime with MFeaST. After downloading, 
 
 See [renwicklab](https://www.renwicklab.com/molecular-feast/)https://www.renwicklab.com/molecular-feast/ for more information. 
 For step by step instructions on installation and use, please see "Before You Begin" and "Stage 3" in [A user-driven machine learning approach for RNA-based sample discrimination and hierarchical classification
@@ -30,15 +30,15 @@ If issues, please write in Issues or contact either Tashifa Imtiaz (17ti6@queens
 
    **Note:** If you already have MATLAB installed, the one-step installation version of _MFeaST_ is still recommended. This version will install the MATLAB Runtime corresponding to the app, which may be different from your installed MATLAB software.
 
-**Download _MFeaST_ installation file:**
+### **Download _MFeaST_ installation file:**
 
 https://github.com/Renwick-Lab/RNA-ML-Sample-Hierarchical-Classification/assets/57264991/bd5a058d-d51c-4ac6-ae85-f9803c549203
 
-**Install _MFeaST_ for Windows**
+### **Install _MFeaST_ for Windows** <a name="windows"></a> 
 
 https://github.com/Renwick-Lab/RNA-ML-Sample-Hierarchical-Classification/assets/57264991/81ef611e-208d-4c4a-9d73-29d3fbbb6366
 
-**Install _MFeaST_ for Mac**
+### **Install _MFeaST_ for Mac** <a name="mac"></a> 
 
 https://github.com/Renwick-Lab/RNA-ML-Sample-Hierarchical-Classification/assets/57264991/3d388621-401d-4754-b2c1-3e681119d59f
 
