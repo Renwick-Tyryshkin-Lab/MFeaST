@@ -7,7 +7,7 @@ Ensemble machine learning approach for feature selection.
 
 .exe files are for Windows installation. Then follow [Windows installation instructions](#windows).
 
-MATLAB Runtime 2023a required for MATLAB user version of latest release. Please use the "Installer Version" to install Runtime with MFeaST. After downloading, 
+MATLAB Runtime 2023a required for MATLAB user version of latest release. Please use the "Installer Version" to install Runtime with MFeaST. 
 
 See [renwicklab](https://www.renwicklab.com/molecular-feast/)https://www.renwicklab.com/molecular-feast/ for more information. 
 For step by step instructions on installation and use, please see "Before You Begin" and "Stage 3" in [A user-driven machine learning approach for RNA-based sample discrimination and hierarchical classification
